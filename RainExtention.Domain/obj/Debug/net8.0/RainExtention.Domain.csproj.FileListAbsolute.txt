@@ -1,0 +1,11 @@
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\bin\Debug\net8.0\RainExtention.Domain.deps.json
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\bin\Debug\net8.0\RainExtention.Domain.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\bin\Debug\net8.0\RainExtention.Domain.pdb
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.AssemblyInfoInputs.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.AssemblyInfo.cs
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\refint\RainExtention.Domain.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\RainExtention.Domain.pdb
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Domain\obj\Debug\net8.0\ref\RainExtention.Domain.dll
