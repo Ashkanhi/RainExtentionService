@@ -1,0 +1,17 @@
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Infrastructure.deps.json
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Infrastructure.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Infrastructure.pdb
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Domain.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Domain.pdb
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.AssemblyInfo.cs
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExte.A4B695F8.Up2Date
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\refint\RainExtention.Infrastructure.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.pdb
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\ref\RainExtention.Infrastructure.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Infrastructure.runtimeconfig.json
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.genruntimeconfig.cache
