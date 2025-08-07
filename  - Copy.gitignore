@@ -1,0 +1,50 @@
+# Build Folders
+bin/
+obj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Bb]uild/
+
+# Visual Studio Files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.csproj.user
+
+# NuGet
+packages/
+*.nuget.*
+
+# Compiled files (DONT UPLOAD!)
+*.dll
+*.exe
+*.pdb
+*.cache
+*.assets
+*.log
+*.xml
+*.mdb
+
+# ASP.NET Core
+wwwroot/lib/
+appsettings.Development.json
+appsettings.Staging.json
+
+# OS & Temp
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# MSBuild
+*.GeneratedMSBuildEditorConfig.editorconfig
+project.assets.json
+project.nuget.cache
