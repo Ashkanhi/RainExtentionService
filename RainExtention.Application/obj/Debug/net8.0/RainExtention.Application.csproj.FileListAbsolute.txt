@@ -13,3 +13,4 @@ C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Application\o
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Application\obj\Debug\net8.0\refint\RainExtention.Application.dll
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Application\obj\Debug\net8.0\RainExtention.Application.pdb
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Application\obj\Debug\net8.0\ref\RainExtention.Application.dll
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Application\obj\Debug\net8.0\RainExtention.Application.sourcelink.json

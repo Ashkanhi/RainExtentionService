@@ -1,14 +1,10 @@
-﻿using RainExtention.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RainExtention.Application.Interface;
+using RainExtention.Domain;
 using RainExtention.Domain.Entities;
 
 namespace RainExtention.Application
 {
-    class StockDocumentService
+    public class StockDocumentService : IStockDocumentService
     {
         private readonly IStockDocumentRepository _repository;
 

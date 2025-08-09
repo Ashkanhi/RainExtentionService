@@ -1,35 +1,31 @@
-using Microsoft.AspNetCore.Authentication.Negotiate;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using RainExtention.Infrastructure.Context;
+using RainExtention.Application.Interface;
+using RainExtention.Application;
+using RainExtention.Infrastructure.Repositories;
+using RainExtentionService.Middleware;
+using RainExtention.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+// ثبت DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RainExtentionConnection")));
 
+// ثبت سرویس‌ها و ریپوزیتوری‌ها
+builder.Services.AddScoped<IStockDocumentService, StockDocumentService>();
+builder.Services.AddScoped<IStockDocumentRepository, StockDocumentRepository>();
 
-
-// Add services to the container.
+// MVC + API
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
-   .AddNegotiate();
-
-builder.Services.AddAuthorization(options =>
-{
-    // By default, all incoming requests will be authorized according to the default policy.
-    options.FallbackPolicy = options.DefaultPolicy;
-});
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -38,8 +34,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// اجرای Basic Auth روی کل برنامه
+app.UseMiddleware<BasicAuthMiddleware>();
+
 app.UseAuthorization();
 
+app.MapControllers();
+
+// مسیر پیش‌فرض MVC
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

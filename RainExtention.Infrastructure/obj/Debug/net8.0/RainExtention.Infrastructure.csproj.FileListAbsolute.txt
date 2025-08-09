@@ -15,3 +15,4 @@ C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructur
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\ref\RainExtention.Infrastructure.dll
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\bin\Debug\net8.0\RainExtention.Infrastructure.runtimeconfig.json
 C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.genruntimeconfig.cache
+C:\Users\Ashkan-PC\source\repos\RainExtentionService\RainExtention.Infrastructure\obj\Debug\net8.0\RainExtention.Infrastructure.sourcelink.json
