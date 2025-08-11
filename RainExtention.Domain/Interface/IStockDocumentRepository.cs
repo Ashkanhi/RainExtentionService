@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using RainExtention.Domain.Entities;
 
 
-namespace RainExtention.Domain
+namespace RainExtention.Domain.Interface
 {
     public interface IStockDocumentRepository
     {

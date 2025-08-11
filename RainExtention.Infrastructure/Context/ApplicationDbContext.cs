@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using RainExtention.Infrastructure.Entities;
-
 namespace RainExtention.Infrastructure.Context;
 
 public partial class ApplicationDbContext : DbContext
@@ -986,6 +985,12 @@ public partial class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<RainExtention.Domain.Entities.ItemListDto>(entity =>
+        {
+            entity.HasNoKey();
+            entity.ToView(null);
+        });
+
         modelBuilder.Entity<ActivePartialPaymentRule>(entity =>
         {
             entity.ToView("ActivePartialPaymentRules");

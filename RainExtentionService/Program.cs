@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RainExtention.Infrastructure.Context;
 using RainExtention.Application.Interface;
-using RainExtention.Application;
 using RainExtention.Infrastructure.Repositories;
 using RainExtentionService.Middleware;
-using RainExtention.Domain;
+using RainExtention.Application.Service;
+using RainExtention.Domain.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RainExtentionConnection")));
 
+
+builder.Services.AddScoped<IItemListService, ItemListService>();
+builder.Services.AddScoped<IItemListRepository, ItemListRepository>();
 // ثبت سرویس‌ها و ریپوزیتوری‌ها
 builder.Services.AddScoped<IStockDocumentService, StockDocumentService>();
 builder.Services.AddScoped<IStockDocumentRepository, StockDocumentRepository>();
