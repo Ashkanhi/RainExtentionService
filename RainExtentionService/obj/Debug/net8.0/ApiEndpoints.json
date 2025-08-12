@@ -20,6 +20,22 @@
     ]
   },
   {
+    "ContainingType": "RainExtentionService.Controllers.SaleInvoiceController",
+    "Method": "GetInvoice",
+    "RelativePath": "api/SaleInvoice/{invoiceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RainExtentionService.Controllers.StockDocumentsController",
     "Method": "GetById",
     "RelativePath": "api/StockDocuments/{id}",

@@ -19,6 +19,10 @@ builder.Services.AddScoped<IItemListRepository, ItemListRepository>();
 builder.Services.AddScoped<IStockDocumentService, StockDocumentService>();
 builder.Services.AddScoped<IStockDocumentRepository, StockDocumentRepository>();
 
+
+builder.Services.AddScoped<ISaleInvoiceRepository, SaleInvoiceRepository>();
+builder.Services.AddScoped<SaleInvoiceService>();
+
 // MVC + API
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();

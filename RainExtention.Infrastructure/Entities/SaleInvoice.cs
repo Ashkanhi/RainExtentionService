@@ -125,4 +125,5 @@ public partial class SaleInvoice
     [ForeignKey("BookerStoreId, BookerWorkstationId")]
     [InverseProperty("SaleInvoices")]
     public virtual Workstation Workstation { get; set; } = null!;
+
 }
