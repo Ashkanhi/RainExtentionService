@@ -22,5 +22,11 @@ namespace RainExtention.Application.Service
         {
             return await _repository.GetByIdAsync(invoiceId);
         }
+
+
+        public async Task AddAsync(SaleInvoice invoice)
+        {
+            await _repository.AddAsync(invoice);
+        }
     }
 }

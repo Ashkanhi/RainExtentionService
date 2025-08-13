@@ -31,5 +31,6 @@ namespace RainExtention.Domain.Entities
         // ارتباط با جزئیات فاکتور
         public List<SaleInvoiceLineItem> InvoiceLineItems { get; set; } = new();
         public List<SaleInvoiceTender> InvoiceTenders { get; set; } = new();
+        public List<SaleItemDelivery> InvoiceItemDeliveries { get; set; } = new();
     }
 }

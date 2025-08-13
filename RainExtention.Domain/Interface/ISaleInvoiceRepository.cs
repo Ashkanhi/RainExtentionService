@@ -10,5 +10,6 @@ namespace RainExtention.Domain.Interface
     public interface ISaleInvoiceRepository
     {
         Task<SaleInvoice?> GetByIdAsync(Guid invoiceId);
+        Task AddAsync(SaleInvoice invoice);
     }
 }

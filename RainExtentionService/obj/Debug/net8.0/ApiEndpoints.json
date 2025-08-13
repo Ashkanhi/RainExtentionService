@@ -21,6 +21,22 @@
   },
   {
     "ContainingType": "RainExtentionService.Controllers.SaleInvoiceController",
+    "Method": "AddSaleInvoice",
+    "RelativePath": "api/SaleInvoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "RainExtention.Domain.Entities.SaleInvoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RainExtentionService.Controllers.SaleInvoiceController",
     "Method": "GetInvoice",
     "RelativePath": "api/SaleInvoice/{invoiceId}",
     "HttpMethod": "GET",

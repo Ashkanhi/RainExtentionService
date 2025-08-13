@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RainExtentionService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84e8d868b6c53c710e98c76680f2caedd7391ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b4b2d246b11e42caaf2e213d26c68158d151cb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("RainExtentionService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RainExtentionService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

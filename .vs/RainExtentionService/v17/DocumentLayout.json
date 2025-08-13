@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\saleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\saleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\isaleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\isaleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\istockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\istockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\stockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\stockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\saleinvoicetender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\saleinvoicetender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\rainextention.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\rainextention.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\controllers\\saleinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\controllers\\saleinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\controllers\\stockdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +15,92 @@
       "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\controllers\\rainextentioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\service\\itemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\service\\itemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\saleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\saleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\stockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\stockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\service\\saleinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\service\\saleinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\isaleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\isaleinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\saleinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\saleinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\itemlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\itemlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\interface\\iitemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\interface\\iitemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\iitemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\iitemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\istockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\istockdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\service\\stockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\service\\stockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\service\\itemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\service\\itemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\rainextention.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\rainextention.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\interface\\istockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\interface\\istockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\saleinvoicetender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\saleinvoicetender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\saleinvoicelineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\saleinvoicelineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\saleitemdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\saleitemdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\itemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\itemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\rainextention.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\rainextention.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\entities\\itemlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\entities\\itemlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\entities\\saleinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,36 +115,12 @@
       "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\rainextentionservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.domain\\interface\\iitemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF9733F-FD72-4F12-8F76-2808C0661378}|RainExtention.Domain\\RainExtention.Domain.csproj|solutionrelative:rainextention.domain\\interface\\iitemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\repositories\\itemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\repositories\\itemlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\interface\\istockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\interface\\istockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\controllers\\itemlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\controllers\\itemlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|solutionrelative:rainextentionservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\interface\\iitemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\interface\\iitemlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\entities\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\entities\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.application\\service\\stockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF4192-61CE-4034-AD93-985FA2B7731E}|RainExtention.Application\\RainExtention.Application.csproj|solutionrelative:rainextention.application\\service\\stockdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4CE868D-DD73-4D78-9497-960B2D0FE8E3}|RainExtentionService\\RainExtentionService.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextentionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -121,14 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|c:\\users\\ashkan-pc\\source\\repos\\rainextentionservice\\rainextention.infrastructure\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40AC3247-E730-4C5C-B9AC-775F4109A0DF}|RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj|solutionrelative:rainextention.infrastructure\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\SaleinvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RainExtentionService\\Controllers\\SaleinvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\SaleInvoiceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RainExtention.Application\\Service\\SaleInvoiceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,57 +166,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SaleinvoiceTender.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwBcAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SaleInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoice.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleInvoice.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoice.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleInvoice.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:04:46.092Z"
+              "WhenOpened": "2025-08-12T08:57:34.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "StockDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
+              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
+              "RelativeToolTip": "RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwM4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T10:05:57.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SaleInvoiceRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\SaleInvoiceRepository.cs",
               "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Repositories\\SaleInvoiceRepository.cs",
               "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\SaleInvoiceRepository.cs",
               "RelativeToolTip": "RainExtention.Infrastructure\\Repositories\\SaleInvoiceRepository.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAwwHEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowCIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T09:16:25.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IStockDocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:44:53.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAGoOAAAAAAAAAIAwwG0OAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T13:15:55.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "RainExtention.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\RainExtention.Domain.csproj",
               "RelativeDocumentMoniker": "RainExtention.Domain\\RainExtention.Domain.csproj",
@@ -220,60 +213,25 @@
               "RelativeToolTip": "RainExtention.Domain\\RainExtention.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-05T13:54:24.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ISaleInvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:15:07.225Z",
+              "WhenOpened": "2025-08-05T13:54:24.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StockDocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
-              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
-              "RelativeToolTip": "RainExtention.Infrastructure\\Repositories\\StockDocumentRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIAwwDYAAAAzAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RainExtentionService\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T10:05:57.319Z"
+              "WhenOpened": "2025-08-09T06:12:41.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SaleinvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\SaleinvoiceController.cs",
-              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\SaleinvoiceController.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\SaleinvoiceController.cs",
-              "RelativeToolTip": "RainExtentionService\\Controllers\\SaleinvoiceController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:21:05.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StockDocumentController.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\StockDocumentController.cs",
-              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\StockDocumentController.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\StockDocumentController.cs",
-              "RelativeToolTip": "RainExtentionService\\Controllers\\StockDocumentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T06:20:30.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "RainExtentionController.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\RainExtentionController.cs",
               "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\RainExtentionController.cs",
@@ -281,23 +239,64 @@
               "RelativeToolTip": "RainExtentionService\\Controllers\\RainExtentionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:45:47.701Z"
+              "WhenOpened": "2025-08-10T10:45:47.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SaleInvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\SaleInvoiceService.cs",
-              "RelativeDocumentMoniker": "RainExtention.Application\\Service\\SaleInvoiceService.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\SaleInvoiceService.cs",
-              "RelativeToolTip": "RainExtention.Application\\Service\\SaleInvoiceService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SaleinvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\SaleinvoiceController.cs",
+              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\SaleinvoiceController.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\SaleinvoiceController.cs",
+              "RelativeToolTip": "RainExtentionService\\Controllers\\SaleinvoiceController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:13:31.32Z"
+              "WhenOpened": "2025-08-12T09:21:05.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockDocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\StockDocumentController.cs",
+              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\StockDocumentController.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\StockDocumentController.cs",
+              "RelativeToolTip": "RainExtentionService\\Controllers\\StockDocumentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T06:20:30.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IItemListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IItemListRepository.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\IItemListRepository.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IItemListRepository.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Interface\\IItemListRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:39:22.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Program.cs",
+              "RelativeDocumentMoniker": "RainExtentionService\\Program.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Program.cs",
+              "RelativeToolTip": "RainExtentionService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:14:16.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ItemListService.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\ItemListService.cs",
               "RelativeDocumentMoniker": "RainExtention.Application\\Service\\ItemListService.cs",
@@ -305,23 +304,181 @@
               "RelativeToolTip": "RainExtention.Application\\Service\\ItemListService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T07:17:36.475Z"
+              "WhenOpened": "2025-08-11T07:17:36.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\SaleInvoiceService.cs",
+              "RelativeDocumentMoniker": "RainExtention.Application\\Service\\SaleInvoiceService.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\SaleInvoiceService.cs",
+              "RelativeToolTip": "RainExtention.Application\\Service\\SaleInvoiceService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T09:13:31.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISaleInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Interface\\ISaleInvoiceRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T09:15:07.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStockDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Interface\\IStockDocumentRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:44:53.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SaleInvoice.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoice.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleInvoice.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoice.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleInvoice.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCIAAAABAAAAAAAAAA==",
+              "Title": "IItemListService.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IItemListService.cs",
+              "RelativeDocumentMoniker": "RainExtention.Application\\Interface\\IItemListService.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IItemListService.cs",
+              "RelativeToolTip": "RainExtention.Application\\Interface\\IItemListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T08:57:34.998Z"
+              "WhenOpened": "2025-08-13T10:22:23.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
+              "Title": "IStockdocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IStockdocumentService.cs",
+              "RelativeDocumentMoniker": "RainExtention.Application\\Interface\\IStockdocumentService.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IStockdocumentService.cs",
+              "RelativeToolTip": "RainExtention.Application\\Interface\\IStockdocumentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T10:23:29.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StockDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\StockDocumentService.cs",
+              "RelativeDocumentMoniker": "RainExtention.Application\\Service\\StockDocumentService.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\StockDocumentService.cs",
+              "RelativeToolTip": "RainExtention.Application\\Service\\StockDocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:58:24.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SaleinvoiceTender.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleinvoiceTender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:04:46.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SaleInvoiceLineItem.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T09:04:18.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SaleItemDelivery.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleItemDelivery.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleItemDelivery.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleItemDelivery.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleItemDelivery.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:17:36.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
+              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
+              "RelativeToolTip": "RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwBsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:33:39.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RainExtention.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\RainExtention.Application.csproj",
+              "RelativeDocumentMoniker": "RainExtention.Application\\RainExtention.Application.csproj",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\RainExtention.Application.csproj",
+              "RelativeToolTip": "RainExtention.Application\\RainExtention.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T10:22:36.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StockDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\StockDocument.cs",
+              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\StockDocument.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\StockDocument.cs",
+              "RelativeToolTip": "RainExtention.Domain\\Entities\\StockDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:47:24.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RainExtention.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAHkCAAAAAAAAAAASwH8CAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:15:55.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ItemListDto.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\ItemListDto.cs",
               "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\ItemListDto.cs",
@@ -333,31 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SaleInvoiceLineItem.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Entities\\SaleInvoiceLineItem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:04:18.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RainExtention.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\RainExtention.Application.csproj",
-              "RelativeDocumentMoniker": "RainExtention.Application\\RainExtention.Application.csproj",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\RainExtention.Application.csproj",
-              "RelativeToolTip": "RainExtention.Application\\RainExtention.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-06T10:22:36.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "SaleInvoice.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Entities\\SaleInvoice.cs",
               "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Entities\\SaleInvoice.cs",
@@ -369,55 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IItemListRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IItemListRepository.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Interface\\IItemListRepository.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Interface\\IItemListRepository.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Interface\\IItemListRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T06:39:22.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Program.cs",
-              "RelativeDocumentMoniker": "RainExtentionService\\Program.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Program.cs",
-              "RelativeToolTip": "RainExtentionService\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T11:14:16.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ItemListRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
-              "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
-              "RelativeToolTip": "RainExtention.Infrastructure\\Repositories\\ItemListRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA8wBsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T06:33:39.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StockDocument.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\StockDocument.cs",
-              "RelativeDocumentMoniker": "RainExtention.Domain\\Entities\\StockDocument.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Domain\\Entities\\StockDocument.cs",
-              "RelativeToolTip": "RainExtention.Domain\\Entities\\StockDocument.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:47:24.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "RainExtention.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj",
               "RelativeDocumentMoniker": "RainExtention.Infrastructure\\RainExtention.Infrastructure.csproj",
@@ -429,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "RainExtentionService.csproj",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\RainExtentionService.csproj",
               "RelativeDocumentMoniker": "RainExtentionService\\RainExtentionService.csproj",
@@ -441,19 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IStockdocumentService.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IStockdocumentService.cs",
-              "RelativeDocumentMoniker": "RainExtention.Application\\Interface\\IStockdocumentService.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IStockdocumentService.cs",
-              "RelativeToolTip": "RainExtention.Application\\Interface\\IStockdocumentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T10:23:29.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "ItemListController.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\ItemListController.cs",
               "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\ItemListController.cs",
@@ -465,31 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "RainExtentionService\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "RainExtentionService\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T06:12:41.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IItemListService.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IItemListService.cs",
-              "RelativeDocumentMoniker": "RainExtention.Application\\Interface\\IItemListService.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Interface\\IItemListService.cs",
-              "RelativeToolTip": "RainExtention.Application\\Interface\\IItemListService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T07:14:21.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "StockDocument.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Entities\\StockDocument.cs",
               "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Entities\\StockDocument.cs",
@@ -501,19 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StockDocumentService.cs",
-              "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\StockDocumentService.cs",
-              "RelativeDocumentMoniker": "RainExtention.Application\\Service\\StockDocumentService.cs",
-              "ToolTip": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Application\\Service\\StockDocumentService.cs",
-              "RelativeToolTip": "RainExtention.Application\\Service\\StockDocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T13:58:24.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\appsettings.json",
               "RelativeDocumentMoniker": "RainExtentionService\\appsettings.json",
@@ -525,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "BasicAuthMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtentionService\\Middleware\\BasicAuthMiddleware.cs",
               "RelativeDocumentMoniker": "RainExtentionService\\Middleware\\BasicAuthMiddleware.cs",
@@ -537,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Attribute.cs",
               "DocumentMoniker": "C:\\Users\\Ashkan-PC\\source\\repos\\RainExtentionService\\RainExtention.Infrastructure\\Entities\\Attribute.cs",
               "RelativeDocumentMoniker": "RainExtention.Infrastructure\\Entities\\Attribute.cs",
