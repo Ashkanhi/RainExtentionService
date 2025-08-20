@@ -9,7 +9,8 @@ namespace RainExtention.Domain.Entities
     public  class ItemListDto
     {
 
-        public Guid ItemID { get; set; }
+        public Guid ItemID { get; set; }        
+        public Guid? ParentID { get; set; }
         public string?  ItemName { get; set; }
         public decimal SalePrice { get; set; }
         public decimal CurrentDiscount { get; set; }
