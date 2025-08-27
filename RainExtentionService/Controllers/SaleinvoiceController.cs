@@ -37,8 +37,11 @@ namespace RainExtentionService.Controllers
 
             try
             {
-                await _invoiceService.AddAsync(invoice); // 👈 این متد همون AddAsync شماست
-                return Ok(new { Message = "Invoice added successfully." });
+
+                var response = await _invoiceService.AddAsync(invoice);
+                return Ok(response); // خودش به JSON تبدیل می‌شه
+                //await _invoiceService.AddAsync(invoice); // 👈 این متد همون AddAsync شماست
+                //return Ok(new { Message = "Invoice added successfully." });
             }
             catch (Exception ex)
             {

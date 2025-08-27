@@ -6,7 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RainExtention.Domain.Entities; // برای SaleInvoice
-using Microsoft.EntityFrameworkCore; // برای Include
+using Microsoft.EntityFrameworkCore;
+using System.CodeDom.Compiler; // برای Include
 
 namespace RainExtention.Infrastructure.Repositories
 {
@@ -18,37 +19,60 @@ namespace RainExtention.Infrastructure.Repositories
         {
             _context = context;
         }
- 
+
+        public async Task<string?> GetLastInvoiceNumberAsync(int bookerStoreId)
+        {
+            return await _context.SaleInvoices
+                .Where(i =>
+                    i.BookerStoreId == bookerStoreId &&
+                    i.BookerWorkstationId == 1 
+                    )   
+                .OrderByDescending(i => i.InvoiceNumber)  
+                .ThenByDescending(i => i.InvoiceDate) 
+                .Select(i => i.InvoiceNumber)
+                .FirstOrDefaultAsync(); // اگر نباشه null برمی‌گردونه
+        }
 
         public async Task AddAsync(Domain.Entities.SaleInvoice invoice)
         {
+            // ✅ 1. تولید مقادیر سروری
+            var generateInvoiceId = invoice.InvoiceId;
+            var generateNow = DateTime.Now;
+            var generateDateOnly = DateOnly.FromDateTime(generateNow);
+            var generateTimeOnly = TimeOnly.FromDateTime(generateNow);
+
+
+
+            // ✅ 3. مپ به موجودیت زیرساخت
             var efEntity = new Infrastructure.Entities.SaleInvoice
             {
+                // --- اطلاعات فاکتور ---
                 BookerStoreId = invoice.BookerStoreId,
                 BookerWorkstationId = invoice.BookerWorkstationId,
-                InvoiceId = invoice.InvoiceId,
-                InvoiceDate = invoice.InvoiceDate,
-                BusinessDate = invoice.BusinessDate,
-                InvoiceNumber = invoice.InvoiceNumber,
-                InvoiceTypeId = invoice.InvoiceTypeId,
+                InvoiceId = generateInvoiceId,
+                InvoiceNumber = invoice.InvoiceNumber ,   // ✅ همیشه شماره ما
+                InvoiceDate = generateNow,
+                BusinessDate = generateDateOnly,
+                InvoiceTypeId = null,
                 CustomerId = invoice.CustomerId,
                 ExpectedAmount = invoice.ExpectedAmount,
                 CreationUser = invoice.CreationUser,
-                CreationDate = invoice.CreationDate,
-                ModifyUser = invoice.ModifyUser,
-                ModifyDate = invoice.ModifyDate,
-                AuthorizeUser = invoice.AuthorizeUser,
-                IsOnlineSale = invoice.IsOnlineSale,
-                ScanCount = invoice.ScanCount,
-                InvoiceTime = invoice.InvoiceTime,
+                CreationDate = generateNow,
+                ModifyUser = invoice.CreationUser,
+                ModifyDate = generateNow,
+                AuthorizeUser = invoice.CreationUser,
+                IsOnlineSale = true,
+                ScanCount = null,
+                InvoiceTime = generateTimeOnly,
                 SaleChannelId = invoice.SaleChannelId,
                 StockId = invoice.StockId,
 
+                // --- آیتم‌های فاکتور ---
                 SaleInvoiceLineItems = invoice.InvoiceLineItems?.Select(li => new Infrastructure.Entities.SaleInvoiceLineItem
                 {
                     BookerStoreId = li.BookerStoreId,
                     BookerWorkstationId = li.BookerWorkstationId,
-                    InvoiceId = li.InvoiceId,
+                    InvoiceId = generateInvoiceId,
                     LineItemId = li.LineItemId,
                     ItemId = li.ItemId,
                     TypeId = li.TypeId,
@@ -63,88 +87,91 @@ namespace RainExtention.Infrastructure.Repositories
                     TollAmount = li.TollAmount,
                     RoundAmount = li.RoundAmount,
                     ExpectedAmount = li.ExpectedAmount,
-                    ManufacturerPrice = li.ManufacturerPrice,
+                    ManufacturerPrice = 0,
                     IsDelivery = li.IsDelivery,
                     ReasonId = li.ReasonId,
-                    SupplierDiscount = li.SupplierDiscount,
+                    SupplierDiscount = null,
                     IsPriceWithTax = li.IsPriceWithTax,
                     IsManualDiscount = li.IsManualDiscount,
-                    ConsumerPrice = li.ConsumerPrice,
+                    ConsumerPrice = 0,
                     RoundType = li.RoundType,
                     ManualDiscount = li.ManualDiscount,
                     ManualDiscountPercent = li.ManualDiscountPercent,
-                    Point = li.Point,
+                    Point = 0,
                     CurrentPrice = li.CurrentPrice,
-                    OrderQuantity = li.OrderQuantity,
-                    ServiceAmount = li.ServiceAmount,
-                    StatusId = li.StatusId,
-                    IsTaxAsDiscount = li.IsTaxAsDiscount,
-                    InvoiceDate = li.InvoiceDate
-                }).ToList() ?? new(),
+                    OrderQuantity = 0,
+                    ServiceAmount = 0,
+                    StatusId = null,
+                    IsTaxAsDiscount = false,
+                    InvoiceDate = generateDateOnly
+                }).ToList() ?? new List<Infrastructure.Entities.SaleInvoiceLineItem>(),
 
+                // --- پرداخت‌ها ---
                 SaleInvoiceTenders = invoice.InvoiceTenders?.Select(t => new Infrastructure.Entities.SaleInvoiceTender
                 {
                     BookerStoreId = t.BookerStoreId,
                     BookerWorkstationId = t.BookerWorkstationId,
-                    InvoiceId = t.InvoiceId,
+                    InvoiceId = generateInvoiceId,
                     TenderId = t.TenderId.GetValueOrDefault(),
                     Amount = t.Amount,
-                    CashierId = t.CashierId,
+                    CashierId = invoice.CreationUser,
                     LineItemId = t.LineItemId,
-                    DueDate = t.DueDate,
-                    PaymentDate = t.PaymentDate,
-                    ExchangeAmount = t.ExchangeAmount,
+                    DueDate = generateNow,
+                    PaymentDate = generateNow,
+                    ExchangeAmount = 1,
                     ReturnAmount = t.ReturnAmount
-                }).ToList() ?? new(),
+                }).ToList() ?? new List<Infrastructure.Entities.SaleInvoiceTender>(),
 
+                // --- تحویل‌ها ---
                 SaleItemDeliveries = invoice.InvoiceItemDeliveries?.Select(d => new Infrastructure.Entities.SaleItemDelivery
                 {
                     BookerStoreId = d.BookerStoreId,
                     BookerWorkstationId = d.BookerWorkstationId,
-                    InvoiceId = d.InvoiceId,
-                    DeliveryId = d.DeliveryId,
-                    DeliveryDate = d.DeliveryDate,
+                    InvoiceId = generateInvoiceId,
+                    DeliveryId = 1,
+                    DeliveryDate = generateNow,
                     Address = d.Address,
                     Tell = d.Tell,
                     Mobile = d.Mobile,
                     Longitude = d.Longitude,
                     Latitude = d.Latitude,
-                    InstallDate = d.InstallDate,
-                    ConfirmDeliveryDate = d.ConfirmDeliveryDate,
-                    Floor = d.Floor,
-                    Elevator = d.Elevator,
-                    DeliveryPersonId = d.DeliveryPersonId,
-                    InstallPersonId = d.InstallPersonId,
+                    InstallDate = generateNow,
+                    ConfirmDeliveryDate = generateNow,
+                    Floor = 0,
+                    Elevator = false,
+                    DeliveryPersonId = null,
+                    InstallPersonId = null,
                     DeliveryPrice = d.DeliveryPrice,
-                    InstallPrice = d.InstallPrice,
-                    StatusId = d.StatusId,
+                    InstallPrice = 0,
+                    StatusId = 336,
                     Description = d.Description,
-                    InstallDescription = d.InstallDescription,
-                    DeliveryRate = d.DeliveryRate,
-                    InstallRate = d.InstallRate,
-                    IsDeliver = d.IsDeliver,
-                    IsInstall = d.IsInstall,
-                    DeliveryTypeId = d.DeliveryTypeId,
-                    ShippingCompany = d.ShippingCompany,
-                    DriverName = d.DriverName,
-                    FareAmount = d.FareAmount,
-                    ShippingDate = d.ShippingDate,
-                    ShippingNumber = d.ShippingNumber,
+                    InstallDescription = null,
+                    DeliveryRate = 0,
+                    InstallRate = 0,
+                    IsDeliver = true,
+                    IsInstall = false,
+                    DeliveryTypeId = 454,
+                    ShippingCompany = null,
+                    DriverName = null,
+                    FareAmount = 0,
+                    ShippingDate = generateNow,
+                    ShippingNumber = null,
                     CertificateNumber = d.CertificateNumber,
-                    CarType = d.CarType,
-                    CarTag = d.CarTag,
-                    FinanceApprove = d.FinanceApprove,
-                    FinanceApproveUser = d.FinanceApproveUser,
-                    FinanceApproveDate = d.FinanceApproveDate,
-                    IsInstallRequire = d.IsInstallRequire,
-                    DeliveryApproveUser = d.DeliveryApproveUser,
-                    DeliveryApproveDate = d.DeliveryApproveDate,
-                    InstallApproveUser = d.InstallApproveUser,
-                    InstallApproveDate = d.InstallApproveDate,
-                    ExtrernalCode = d.ExtrernalCode
-                }).ToList() ?? new()
+                    CarType = null,
+                    CarTag = null,
+                    FinanceApprove = false,
+                    FinanceApproveUser = null,
+                    FinanceApproveDate = null,
+                    IsInstallRequire = false,
+                    DeliveryApproveUser = null,
+                    DeliveryApproveDate = null,
+                    InstallApproveUser = null,
+                    InstallApproveDate = null,
+                    ExtrernalCode = null
+                }).ToList() ?? new List<Infrastructure.Entities.SaleItemDelivery>()
             };
 
+            // ✅ ذخیره
             _context.SaleInvoices.Add(efEntity);
             await _context.SaveChangesAsync();
         }
@@ -266,21 +293,20 @@ namespace RainExtention.Infrastructure.Repositories
                     DeliveryTypeId = d.DeliveryTypeId,
                     ShippingCompany = d.ShippingCompany,
                     DriverName = d.DriverName,
-                    FareAmount = d.FareAmount,
-                    ShippingDate = d.ShippingDate,
+                    FareAmount = d.FareAmount,                    
                     ShippingNumber = d.ShippingNumber,
                     CertificateNumber = d.CertificateNumber,
-                    CarType = d.CarType,
-                    CarTag = d.CarTag,
-                    FinanceApprove = d.FinanceApprove,
-                    FinanceApproveUser = d.FinanceApproveUser,
-                    FinanceApproveDate = d.FinanceApproveDate,
-                    IsInstallRequire = d.IsInstallRequire,
-                    DeliveryApproveUser = d.DeliveryApproveUser,
-                    DeliveryApproveDate = d.DeliveryApproveDate,
-                    InstallApproveUser = d.InstallApproveUser,
-                    InstallApproveDate = d.InstallApproveDate,
-                    ExtrernalCode = d.ExtrernalCode
+                    CarType =null ,
+                    CarTag = null ,
+                    FinanceApprove = false,
+                    FinanceApproveUser = null ,
+                    FinanceApproveDate = null,
+                    IsInstallRequire = false,
+                    DeliveryApproveUser = null,
+                    DeliveryApproveDate = null ,
+                    InstallApproveUser = null ,
+                    InstallApproveDate = null ,
+                    ExtrernalCode = null 
                 }).ToList() ?? new()
             };
 
