@@ -15,7 +15,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<DisableProceduresRepository>();
 builder.Services.AddScoped<IDisableProceduresRepository, DisableProceduresRepository>();
 
-
+builder.Services.AddScoped<EnableProceduresRepository>();
+builder.Services.AddScoped<IEnableProceduresRepository, EnableProceduresRepository>();
 
 
 builder.Services.AddScoped<IItemListService, ItemListService>();
