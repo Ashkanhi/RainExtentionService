@@ -30,5 +30,5 @@ public partial class PersonCustomField
 
     [ForeignKey("PersonId")]
     [InverseProperty("PersonCustomField")]
-    public virtual Person1 Person { get; set; } = null!;
+    public virtual Person Person { get; set; } = null!;
 }

@@ -29,7 +29,7 @@ public partial class ThirdParty
     public virtual Company? Company { get; set; }
 
     [InverseProperty("ThirdParty")]
-    public virtual Person1? Person1 { get; set; }
+    public virtual Person? Person { get; set; }
 
     [InverseProperty("ThirdParty")]
     public virtual ICollection<ProductionDocument> ProductionDocuments { get; set; } = new List<ProductionDocument>();

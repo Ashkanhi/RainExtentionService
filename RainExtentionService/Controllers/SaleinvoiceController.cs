@@ -30,7 +30,7 @@ namespace RainExtentionService.Controllers
 
         // POST: api/SaleInvoice
         [HttpPost]
-        public async Task<IActionResult> AddSaleInvoice([FromBody] SaleInvoice invoice)
+        public async Task<IActionResult> AddSaleInvoice([FromBody] SaleInvoiceDto invoice)
         {
             if (invoice == null)
                 return BadRequest("Invoice data is required.");

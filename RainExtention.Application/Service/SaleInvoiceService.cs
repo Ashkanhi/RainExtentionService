@@ -19,13 +19,13 @@ namespace RainExtention.Application.Service
             _repository = repository;
         }
 
-        public async Task<SaleInvoice?> GetInvoiceByIdAsync(Guid invoiceId)
+        public async Task<SaleInvoiceDto?> GetInvoiceByIdAsync(Guid invoiceId)
         {
             return await _repository.GetByIdAsync(invoiceId);
         }
 
 
-        public async Task<AddSaleInvoiceResponse> AddAsync(SaleInvoice invoice)
+        public async Task<AddSaleInvoiceResponse> AddAsync(SaleInvoiceDto invoice)
         {
 
             // تولید شماره فاکتور

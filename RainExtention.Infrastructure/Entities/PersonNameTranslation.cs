@@ -28,5 +28,5 @@ public partial class PersonNameTranslation
 
     [ForeignKey("PersonId")]
     [InverseProperty("PersonNameTranslations")]
-    public virtual Person1 Person { get; set; } = null!;
+    public virtual Person Person { get; set; } = null!;
 }

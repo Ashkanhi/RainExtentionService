@@ -33,7 +33,7 @@ namespace RainExtention.Infrastructure.Repositories
                 .FirstOrDefaultAsync(); // اگر نباشه null برمی‌گردونه
         }
 
-        public async Task AddAsync(Domain.Entities.SaleInvoice invoice)
+        public async Task AddAsync(Domain.Entities.SaleInvoiceDto invoice)
         {
             // ✅ 1. تولید مقادیر سروری
             var generateInvoiceId = invoice.InvoiceId;
@@ -177,7 +177,7 @@ namespace RainExtention.Infrastructure.Repositories
         }
 
 
-        public async Task<SaleInvoice?> GetByIdAsync(Guid invoiceId)
+        public async Task<SaleInvoiceDto?> GetByIdAsync(Guid invoiceId)
         {
             var entity = await _context.SaleInvoices
                 .Include(i => i.SaleInvoiceLineItems)
@@ -188,7 +188,7 @@ namespace RainExtention.Infrastructure.Repositories
             if (entity == null)
                 return null;
 
-            var domainModel = new SaleInvoice
+            var domainModel = new SaleInvoiceDto
             {
                 BookerStoreId = entity.BookerStoreId,
                 BookerWorkstationId = entity.BookerWorkstationId,
@@ -210,7 +210,7 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleChannelId = entity.SaleChannelId,
                 StockId = entity.StockId,
 
-                InvoiceLineItems = entity.SaleInvoiceLineItems?.Select(li => new SaleInvoiceLineItem
+                InvoiceLineItems = entity.SaleInvoiceLineItems?.Select(li => new SaleInvoiceLineItemDto
                 {
                     BookerStoreId = li.BookerStoreId,
                     BookerWorkstationId = li.BookerWorkstationId,
@@ -248,7 +248,7 @@ namespace RainExtention.Infrastructure.Repositories
                     InvoiceDate = li.InvoiceDate
                 }).ToList() ?? new(),
 
-                InvoiceTenders = entity.SaleInvoiceTenders?.Select(t => new SaleInvoiceTender
+                InvoiceTenders = entity.SaleInvoiceTenders?.Select(t => new SaleinvoiceTenderDto
                 {
                     BookerStoreId = t.BookerStoreId,
                     BookerWorkstationId = t.BookerWorkstationId,

@@ -118,7 +118,7 @@ public partial class Dictionary
     public virtual ICollection<PartialPaymentRule> PartialPaymentRules { get; set; } = new List<PartialPaymentRule>();
 
     [InverseProperty("Salution")]
-    public virtual ICollection<Person1> Person1s { get; set; } = new List<Person1>();
+    public virtual ICollection<Person> Person1s { get; set; } = new List<Person>();
 
     [InverseProperty("Status")]
     public virtual ICollection<ProductCatalogDetail> ProductCatalogDetails { get; set; } = new List<ProductCatalogDetail>();

@@ -6,19 +6,86 @@ using Microsoft.EntityFrameworkCore;
 
 namespace RainExtention.Infrastructure.Entities;
 
+[Table("Person")]
+[Index("Birthday", Name = "IX_Birthday")]
+[Index("DetailAccountId", Name = "IX_DetailAccountID", IsUnique = true)]
+[Index("EducationId", Name = "IX_EducationID")]
+[Index("NationalId", Name = "IX_NationalID")]
+[Index("PartyId", Name = "IX_PartyID", IsUnique = true)]
+[Index("SalutionId", Name = "IX_SalutionID")]
+[Index("SexId", Name = "IX_SexID")]
+[Index("ThirdPartyId", Name = "IX_ThirdPartyID", IsUnique = true)]
 public partial class Person
 {
-    [Column("graph_id_C16C27BE1FEA4AEB87D905D933DBF6AF")]
-    public long GraphIdC16c27be1fea4aeb87d905d933dbf6af { get; set; }
-
-    [Column("$node_id_9A1CFCDE0C3C451895D12C61F1697F7E")]
-    [StringLength(1000)]
-    public string NodeId9a1cfcde0c3c451895d12c61f1697f7e { get; set; } = null!;
-
     [Key]
     [Column("PersonID")]
-    public int PersonId { get; set; }
+    public Guid PersonId { get; set; }
+
+    [Column("PartyID")]
+    public Guid? PartyId { get; set; }
+
+    [Column("SalutionID")]
+    public int? SalutionId { get; set; }
+
+    public DateOnly? Birthday { get; set; }
+
+    [Column("NationalID")]
+    [StringLength(50)]
+    public string? NationalId { get; set; }
 
     [StringLength(50)]
-    public string? Name { get; set; }
+    public string? IdentifierNo { get; set; }
+
+    [StringLength(50)]
+    public string? FatherName { get; set; }
+
+    [StringLength(50)]
+    public string? IssuedCity { get; set; }
+
+    public byte[]? PersonImage { get; set; }
+
+    [Column("ThirdPartyID")]
+    public Guid? ThirdPartyId { get; set; }
+
+    [Column("DetailAccountID")]
+    public Guid? DetailAccountId { get; set; }
+
+    [Column("SexID")]
+    public int? SexId { get; set; }
+
+    [Column("EducationID")]
+    public int? EducationId { get; set; }
+
+    public bool? IsTaxPayer { get; set; }
+
+    [StringLength(50)]
+    public string? BusinessCode { get; set; }
+
+    [InverseProperty("OperationalManager")]
+    public virtual ICollection<Company> Companies { get; set; } = new List<Company>();
+
+    [ForeignKey("DetailAccountId")]
+    [InverseProperty("Person1")]
+    public virtual DetailAccount? DetailAccount { get; set; }
+
+    [ForeignKey("PartyId")]
+    [InverseProperty("Person1")]
+    public virtual Party? Party { get; set; }
+
+    [InverseProperty("Person")]
+    public virtual PersonCustomField? PersonCustomField { get; set; }
+
+    [InverseProperty("Person")]
+    public virtual ICollection<PersonNameTranslation> PersonNameTranslations { get; set; } = new List<PersonNameTranslation>();
+
+    [ForeignKey("SalutionId")]
+    [InverseProperty("Person1s")]
+    public virtual Dictionary? Salution { get; set; }
+
+    [InverseProperty("Agent")]
+    public virtual ICollection<Supplier> Suppliers { get; set; } = new List<Supplier>();
+
+    [ForeignKey("ThirdPartyId")]
+    [InverseProperty("Person1")]
+    public virtual ThirdParty? ThirdParty { get; set; }
 }

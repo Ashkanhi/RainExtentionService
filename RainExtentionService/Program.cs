@@ -5,28 +5,34 @@ using RainExtention.Infrastructure.Repositories;
 using RainExtentionService.Middleware;
 using RainExtention.Application.Service;
 using RainExtention.Domain.Interface;
+using RainExtention.Infrastructure.Mapping;
+using Microsoft.Extensions.DependencyInjection;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ثبت DbContext
+// Add DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RainExtentionConnection")));
 
-builder.Services.AddScoped<DisableProceduresRepository>();
+// ✅ ✅ روش تضمینی و سازگار با تمام نسخه‌های AutoMapper (6.0 به بالا)
+builder.Services.AddAutoMapper(config =>
+{
+    config.AddProfile<MappingProfile>(); // ✅ مستقیماً پروفایل رو اضافه می‌کنیم
+});
+
+// ریپازیتوری‌ها
 builder.Services.AddScoped<IDisableProceduresRepository, DisableProceduresRepository>();
-
-builder.Services.AddScoped<EnableProceduresRepository>();
 builder.Services.AddScoped<IEnableProceduresRepository, EnableProceduresRepository>();
-
-
-builder.Services.AddScoped<IItemListService, ItemListService>();
 builder.Services.AddScoped<IItemListRepository, ItemListRepository>();
-// ثبت سرویس‌ها و ریپوزیتوری‌ها
-builder.Services.AddScoped<IStockDocumentService, StockDocumentService>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<IStockDocumentRepository, StockDocumentRepository>();
-
-
 builder.Services.AddScoped<ISaleInvoiceRepository, SaleInvoiceRepository>();
+
+// سرویس‌ها
+builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<IItemListService, ItemListService>();
+builder.Services.AddScoped<IStockDocumentService, StockDocumentService>();
 builder.Services.AddScoped<SaleInvoiceService>();
 
 // MVC + API
@@ -35,7 +41,7 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Pipeline
+// Configure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

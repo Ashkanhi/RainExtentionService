@@ -40,7 +40,7 @@ public partial class DetailAccount
     public virtual Company? Company { get; set; }
 
     [InverseProperty("DetailAccount")]
-    public virtual Person1? Person1 { get; set; }
+    public virtual Person? Person1 { get; set; }
 
     [InverseProperty("DetailAccount")]
     public virtual ICollection<Repository> Repositories { get; set; } = new List<Repository>();

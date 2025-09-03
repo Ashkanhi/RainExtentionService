@@ -35,7 +35,7 @@ public partial class Party
     public virtual ICollection<Employee> Employees { get; set; } = new List<Employee>();
 
     [InverseProperty("Party")]
-    public virtual Person1? Person1 { get; set; }
+    public virtual Person? Person { get; set; }
 
     [InverseProperty("Party")]
     public virtual ICollection<Store> Stores { get; set; } = new List<Store>();

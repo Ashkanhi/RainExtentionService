@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RainExtention.Domain.Entities
 {
-    public partial class SaleInvoiceLineItem
+    public partial class SaleInvoiceLineItemDto
     {
 
         public int BookerStoreId { get; set; }

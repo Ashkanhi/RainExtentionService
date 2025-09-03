@@ -71,7 +71,7 @@ public partial class Supplier
 
     [ForeignKey("AgentId")]
     [InverseProperty("Suppliers")]
-    public virtual Person1? Agent { get; set; }
+    public virtual Person? Agent { get; set; }
 
     [ForeignKey("PartyId")]
     [InverseProperty("Suppliers")]

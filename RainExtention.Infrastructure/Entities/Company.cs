@@ -62,7 +62,7 @@ public partial class Company
 
     [ForeignKey("OperationalManagerId")]
     [InverseProperty("Companies")]
-    public virtual Person1? OperationalManager { get; set; }
+    public virtual Person? OperationalManager { get; set; }
 
     [ForeignKey("PartyId")]
     [InverseProperty("Company")]

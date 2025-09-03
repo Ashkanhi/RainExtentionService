@@ -473,7 +473,7 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Person> People { get; set; }
 
-    public virtual DbSet<Person1> People1 { get; set; }
+    public virtual DbSet<Person> People1 { get; set; }
 
     public virtual DbSet<PersonCustomField> PersonCustomFields { get; set; }
 
@@ -2937,7 +2937,7 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.PersonId).ValueGeneratedNever();
         });
 
-        modelBuilder.Entity<Person1>(entity =>
+        modelBuilder.Entity<Person>(entity =>
         {
             entity.HasKey(e => e.PersonId).HasName("PK_Person_1");
 
@@ -2945,11 +2945,11 @@ public partial class ApplicationDbContext : DbContext
 
             entity.HasOne(d => d.DetailAccount).WithOne(p => p.Person1).HasConstraintName("FK_Person_DetailAccount");
 
-            entity.HasOne(d => d.Party).WithOne(p => p.Person1).HasConstraintName("FK_Person_Party");
+            entity.HasOne(d => d.Party).WithOne(p => p.Person).HasConstraintName("FK_Person_Party");
 
             entity.HasOne(d => d.Salution).WithMany(p => p.Person1s).HasConstraintName("FK_Person_Dictionary");
 
-            entity.HasOne(d => d.ThirdParty).WithOne(p => p.Person1).HasConstraintName("FK_Person_ThirdParty");
+            entity.HasOne(d => d.ThirdParty).WithOne(p => p.Person).HasConstraintName("FK_Person_ThirdParty");
         });
 
         modelBuilder.Entity<PersonCustomField>(entity =>

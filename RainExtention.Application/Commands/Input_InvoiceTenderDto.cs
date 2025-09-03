@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RainExtention.Domain.Entities
+namespace RainExtention.Application.Commands
 {
-    public partial  class SaleInvoiceTender
+    public class Input_InvoiceTenderDto
     {
-        // Properties (Primary Key represented by business meaning, not EF attributes)
+
         public int BookerStoreId { get; set; }
         public int BookerWorkstationId { get; set; }
         public Guid InvoiceId { get; set; }
@@ -22,9 +22,5 @@ namespace RainExtention.Domain.Entities
         public DateTime? DueDate { get; set; }
         public DateTime? PaymentDate { get; set; }
         public Guid? CashierId { get; set; }
-
-        // ارجاع به فاکتور (اختیاری می‌تونی داشته باشی یا نه)
-        //  public SaleInvoice SaleInvoice { get; set; }
     }
-
 }

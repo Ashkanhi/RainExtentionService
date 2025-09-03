@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RainExtention.Domain.Entities
 {
-   public partial class SaleInvoice
+   public partial class SaleInvoiceDto
     {
 
         public int BookerStoreId { get; set; }
@@ -28,9 +28,12 @@ namespace RainExtention.Domain.Entities
         public TimeOnly? InvoiceTime { get; set; }
         public int? SaleChannelId { get; set; }
         public Guid? StockId { get; set; }
+
+        public string? CustomerCode { get; set; }
+
         // ارتباط با جزئیات فاکتور
-        public List<SaleInvoiceLineItem> InvoiceLineItems { get; set; } = new();
-        public List<SaleInvoiceTender> InvoiceTenders { get; set; } = new();
+        public List<SaleInvoiceLineItemDto> InvoiceLineItems { get; set; } = new();
+        public List<SaleinvoiceTenderDto> InvoiceTenders { get; set; } = new();
         public List<SaleItemDelivery> InvoiceItemDeliveries { get; set; } = new();
     }
 }
