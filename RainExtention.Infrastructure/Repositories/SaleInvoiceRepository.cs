@@ -25,7 +25,8 @@ namespace RainExtention.Infrastructure.Repositories
             return await _context.SaleInvoices
                 .Where(i =>
                     i.BookerStoreId == bookerStoreId &&
-                    i.BookerWorkstationId == 1 
+                    i.BookerWorkstationId == 1 && 
+                    i.InvoiceTypeId == 350
                     )   
                 .OrderByDescending(i => i.InvoiceNumber)  
                 .ThenByDescending(i => i.InvoiceDate) 
@@ -37,23 +38,23 @@ namespace RainExtention.Infrastructure.Repositories
         {
             // ✅ 1. تولید مقادیر سروری
             var generateInvoiceId = invoice.InvoiceId;
-            var generateNow = DateTime.Now;
+            var generateNow = DateTime.Now; ; 
             var generateDateOnly = DateOnly.FromDateTime(generateNow);
             var generateTimeOnly = TimeOnly.FromDateTime(generateNow);
-
-
+            var generateinvoiceTypeID = 350;
+            var generateBookerWorkstation = 1; 
 
             // ✅ 3. مپ به موجودیت زیرساخت
             var efEntity = new Infrastructure.Entities.SaleInvoice
             {
                 // --- اطلاعات فاکتور ---
                 BookerStoreId = invoice.BookerStoreId,
-                BookerWorkstationId = invoice.BookerWorkstationId,
+                BookerWorkstationId = generateBookerWorkstation ,
                 InvoiceId = generateInvoiceId,
                 InvoiceNumber = invoice.InvoiceNumber ,   // ✅ همیشه شماره ما
                 InvoiceDate = generateNow,
                 BusinessDate = generateDateOnly,
-                InvoiceTypeId = null,
+                InvoiceTypeId = generateinvoiceTypeID,
                 CustomerId = invoice.CustomerId,
                 ExpectedAmount = invoice.ExpectedAmount,
                 CreationUser = invoice.CreationUser,
@@ -71,7 +72,7 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleInvoiceLineItems = invoice.InvoiceLineItems?.Select(li => new Infrastructure.Entities.SaleInvoiceLineItem
                 {
                     BookerStoreId = li.BookerStoreId,
-                    BookerWorkstationId = li.BookerWorkstationId,
+                    BookerWorkstationId = generateBookerWorkstation,
                     InvoiceId = generateInvoiceId,
                     LineItemId = li.LineItemId,
                     ItemId = li.ItemId,
@@ -94,7 +95,7 @@ namespace RainExtention.Infrastructure.Repositories
                     IsPriceWithTax = li.IsPriceWithTax,
                     IsManualDiscount = li.IsManualDiscount,
                     ConsumerPrice = 0,
-                    RoundType = li.RoundType,
+                    RoundType = 0,
                     ManualDiscount = li.ManualDiscount,
                     ManualDiscountPercent = li.ManualDiscountPercent,
                     Point = 0,
@@ -110,7 +111,7 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleInvoiceTenders = invoice.InvoiceTenders?.Select(t => new Infrastructure.Entities.SaleInvoiceTender
                 {
                     BookerStoreId = t.BookerStoreId,
-                    BookerWorkstationId = t.BookerWorkstationId,
+                    BookerWorkstationId = generateBookerWorkstation,
                     InvoiceId = generateInvoiceId,
                     TenderId = t.TenderId.GetValueOrDefault(),
                     Amount = t.Amount,
@@ -126,7 +127,7 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleItemDeliveries = invoice.InvoiceItemDeliveries?.Select(d => new Infrastructure.Entities.SaleItemDelivery
                 {
                     BookerStoreId = d.BookerStoreId,
-                    BookerWorkstationId = d.BookerWorkstationId,
+                    BookerWorkstationId = generateBookerWorkstation,
                     InvoiceId = generateInvoiceId,
                     DeliveryId = 1,
                     DeliveryDate = generateNow,
@@ -156,7 +157,7 @@ namespace RainExtention.Infrastructure.Repositories
                     FareAmount = 0,
                     ShippingDate = generateNow,
                     ShippingNumber = null,
-                    CertificateNumber = d.CertificateNumber,
+                    CertificateNumber = null ,
                     CarType = null,
                     CarTag = null,
                     FinanceApprove = false,

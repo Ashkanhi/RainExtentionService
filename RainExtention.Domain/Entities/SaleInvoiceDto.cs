@@ -30,6 +30,10 @@ namespace RainExtention.Domain.Entities
         public Guid? StockId { get; set; }
 
         public string? CustomerCode { get; set; }
+        public string? FirstName { get; set; }
+
+        public string? LastName { get; set; }
+
 
         // ارتباط با جزئیات فاکتور
         public List<SaleInvoiceLineItemDto> InvoiceLineItems { get; set; } = new();

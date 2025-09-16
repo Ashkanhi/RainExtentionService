@@ -29,7 +29,7 @@ namespace RainExtentionService.Controllers
             }
 
         // POST: api/SaleInvoice
-        [HttpPost]
+        [HttpPost("SaveInvoice")] // 👈 مسیر دقیق متد
         public async Task<IActionResult> AddSaleInvoice([FromBody] SaleInvoiceDto invoice)
         {
             if (invoice == null)

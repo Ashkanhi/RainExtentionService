@@ -65,11 +65,11 @@ public partial class Person
     public virtual ICollection<Company> Companies { get; set; } = new List<Company>();
 
     [ForeignKey("DetailAccountId")]
-    [InverseProperty("Person1")]
+    [InverseProperty("Person")]
     public virtual DetailAccount? DetailAccount { get; set; }
 
     [ForeignKey("PartyId")]
-    [InverseProperty("Person1")]
+    [InverseProperty("Person")]
     public virtual Party? Party { get; set; }
 
     [InverseProperty("Person")]
@@ -79,13 +79,13 @@ public partial class Person
     public virtual ICollection<PersonNameTranslation> PersonNameTranslations { get; set; } = new List<PersonNameTranslation>();
 
     [ForeignKey("SalutionId")]
-    [InverseProperty("Person1s")]
+    [InverseProperty("Persons")]
     public virtual Dictionary? Salution { get; set; }
 
     [InverseProperty("Agent")]
     public virtual ICollection<Supplier> Suppliers { get; set; } = new List<Supplier>();
 
     [ForeignKey("ThirdPartyId")]
-    [InverseProperty("Person1")]
+    [InverseProperty("Person")]
     public virtual ThirdParty? ThirdParty { get; set; }
 }

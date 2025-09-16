@@ -65,6 +65,7 @@ namespace RainExtention.Infrastructure.Repositories
             {
                 CustomerId = newCustomerId,
                 CustomerCode = customerCode,
+                PartyId = newPartyId ,
                 CreationDate = currentDate,
                 ModifyDate = currentDate,
                 StatusId = 243
@@ -109,8 +110,8 @@ namespace RainExtention.Infrastructure.Repositories
                 LanguageId = 314
             };
 
-            _context.Customers.Add(newCustomer);
             _context.Parties.Add(newParty);
+            _context.Customers.Add(newCustomer);            
             _context.ThirdParties.Add(newThirdParty);
             _context.DetailAccounts.Add(newDetailAccount);
             _context.People.Add(newPerson);
