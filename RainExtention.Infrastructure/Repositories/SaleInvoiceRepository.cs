@@ -37,34 +37,29 @@ namespace RainExtention.Infrastructure.Repositories
         public async Task AddAsync(Domain.Entities.SaleInvoiceDto invoice)
         {
             // ✅ 1. تولید مقادیر سروری
-            var generateInvoiceId = invoice.InvoiceId;
-            var generateNow = DateTime.Now; ; 
-            var generateDateOnly = DateOnly.FromDateTime(generateNow);
-            var generateTimeOnly = TimeOnly.FromDateTime(generateNow);
-            var generateinvoiceTypeID = 350;
-            var generateBookerWorkstation = 1; 
+
 
             // ✅ 3. مپ به موجودیت زیرساخت
             var efEntity = new Infrastructure.Entities.SaleInvoice
             {
                 // --- اطلاعات فاکتور ---
                 BookerStoreId = invoice.BookerStoreId,
-                BookerWorkstationId = generateBookerWorkstation ,
-                InvoiceId = generateInvoiceId,
+                BookerWorkstationId = invoice.BookerWorkstationId,
+                InvoiceId = invoice.InvoiceId,
                 InvoiceNumber = invoice.InvoiceNumber ,   // ✅ همیشه شماره ما
-                InvoiceDate = generateNow,
-                BusinessDate = generateDateOnly,
-                InvoiceTypeId = generateinvoiceTypeID,
+                InvoiceDate = invoice.InvoiceDate,
+                BusinessDate = invoice.BusinessDate,
+                InvoiceTypeId = invoice.InvoiceTypeId,
                 CustomerId = invoice.CustomerId,
                 ExpectedAmount = invoice.ExpectedAmount,
                 CreationUser = invoice.CreationUser,
-                CreationDate = generateNow,
+                CreationDate = invoice.InvoiceDate,
                 ModifyUser = invoice.CreationUser,
-                ModifyDate = generateNow,
+                ModifyDate = invoice.InvoiceDate,
                 AuthorizeUser = invoice.CreationUser,
                 IsOnlineSale = true,
                 ScanCount = null,
-                InvoiceTime = generateTimeOnly,
+                InvoiceTime = invoice.InvoiceTime,
                 SaleChannelId = invoice.SaleChannelId,
                 StockId = invoice.StockId,
 
@@ -72,8 +67,8 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleInvoiceLineItems = invoice.InvoiceLineItems?.Select(li => new Infrastructure.Entities.SaleInvoiceLineItem
                 {
                     BookerStoreId = li.BookerStoreId,
-                    BookerWorkstationId = generateBookerWorkstation,
-                    InvoiceId = generateInvoiceId,
+                    BookerWorkstationId = invoice.BookerWorkstationId,
+                    InvoiceId = invoice.InvoiceId,
                     LineItemId = li.LineItemId,
                     ItemId = li.ItemId,
                     TypeId = li.TypeId,
@@ -104,21 +99,21 @@ namespace RainExtention.Infrastructure.Repositories
                     ServiceAmount = 0,
                     StatusId = null,
                     IsTaxAsDiscount = false,
-                    InvoiceDate = generateDateOnly
+                    InvoiceDate = invoice.BusinessDate
                 }).ToList() ?? new List<Infrastructure.Entities.SaleInvoiceLineItem>(),
 
                 // --- پرداخت‌ها ---
                 SaleInvoiceTenders = invoice.InvoiceTenders?.Select(t => new Infrastructure.Entities.SaleInvoiceTender
                 {
                     BookerStoreId = t.BookerStoreId,
-                    BookerWorkstationId = generateBookerWorkstation,
-                    InvoiceId = generateInvoiceId,
+                    BookerWorkstationId = invoice.BookerWorkstationId,
+                    InvoiceId = invoice.InvoiceId,
                     TenderId = t.TenderId.GetValueOrDefault(),
                     Amount = t.Amount,
                     CashierId = invoice.CreationUser,
                     LineItemId = t.LineItemId,
-                    DueDate = generateNow,
-                    PaymentDate = generateNow,
+                    DueDate = invoice.InvoiceDate,
+                    PaymentDate = invoice.InvoiceDate,
                     ExchangeAmount = 1,
                     ReturnAmount = t.ReturnAmount
                 }).ToList() ?? new List<Infrastructure.Entities.SaleInvoiceTender>(),
@@ -127,17 +122,17 @@ namespace RainExtention.Infrastructure.Repositories
                 SaleItemDeliveries = invoice.InvoiceItemDeliveries?.Select(d => new Infrastructure.Entities.SaleItemDelivery
                 {
                     BookerStoreId = d.BookerStoreId,
-                    BookerWorkstationId = generateBookerWorkstation,
-                    InvoiceId = generateInvoiceId,
+                    BookerWorkstationId = invoice.BookerWorkstationId,
+                    InvoiceId = invoice.InvoiceId,
                     DeliveryId = 1,
-                    DeliveryDate = generateNow,
+                    DeliveryDate = invoice.InvoiceDate,
                     Address = d.Address,
                     Tell = d.Tell,
                     Mobile = d.Mobile,
                     Longitude = d.Longitude,
                     Latitude = d.Latitude,
-                    InstallDate = generateNow,
-                    ConfirmDeliveryDate = generateNow,
+                    InstallDate = invoice.InvoiceDate,
+                    ConfirmDeliveryDate = invoice.InvoiceDate,
                     Floor = 0,
                     Elevator = false,
                     DeliveryPersonId = null,
@@ -155,7 +150,7 @@ namespace RainExtention.Infrastructure.Repositories
                     ShippingCompany = null,
                     DriverName = null,
                     FareAmount = 0,
-                    ShippingDate = generateNow,
+                    ShippingDate = invoice.InvoiceDate,
                     ShippingNumber = null,
                     CertificateNumber = null ,
                     CarType = null,

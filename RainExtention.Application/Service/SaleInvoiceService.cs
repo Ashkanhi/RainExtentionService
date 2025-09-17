@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 using RainExtention.Domain.Interface;
 using RainExtention.Domain.Entities;
 using RainExtention.Application.Models;
+using System.Text.Json;
+using System.IO;
+using System;
+using RainExtention.Application.Service;
+using System.IO;
+using System;
+
 
 
 namespace RainExtention.Application.Service
@@ -14,10 +21,11 @@ namespace RainExtention.Application.Service
     {
         private readonly ISaleInvoiceRepository _repository;
         private readonly ICustomerRepository _customerRepository;
+  
 
-        public SaleInvoiceService(ISaleInvoiceRepository repository, ICustomerRepository customerRepository )
+        public SaleInvoiceService(  ISaleInvoiceRepository repository, ICustomerRepository customerRepository )
         {
-            _repository = repository;
+            _repository = repository;          
             _customerRepository = customerRepository;
         }
 
@@ -71,19 +79,34 @@ namespace RainExtention.Application.Service
                 }
             }
 
-            // 🔹 مرحله 3: تولید شماره فاکتور
-            // آخرین شماره فاکتور صادر شده در این فروشگاه رو می‌خونیم
-            var lastNumber = await _repository.GetLastInvoiceNumberAsync(invoice.BookerStoreId);
 
-            // با استفاده از آخرین شماره، شماره جدید رو تولید می‌کنیم (مثلاً C1001-1-101)
+            var generateNow = DateTime.Now; 
+            var generateDateOnly = DateOnly.FromDateTime(generateNow);
+            var generateTimeOnly = TimeOnly.FromDateTime(generateNow);
+            var generateinvoiceTypeID = 350;
+            var generateBookerWorkstation = 1;
+            var generateInvoiceId =Guid.NewGuid();
+            invoice.InvoiceId = generateInvoiceId;
+
+            invoice.InvoiceDate = generateNow;
+            invoice.BusinessDate = generateDateOnly;
+            invoice.InvoiceTime = generateTimeOnly;
+            invoice.InvoiceTypeId = generateinvoiceTypeID;
+            invoice.BookerWorkstationId = generateBookerWorkstation;
+
+            var lastNumber = await _repository.GetLastInvoiceNumberAsync(invoice.BookerStoreId);            
             invoice.InvoiceNumber = GenerateNextInvoiceNumber(lastNumber, invoice.BookerStoreId, 1);
+                   
+            
 
-            // یه شناسه منحصر به فرد (Guid) برای این فاکتور ایجاد می‌کنیم
-            invoice.InvoiceId = Guid.NewGuid();
+            
+        
+ 
 
-            // 🔹 مرحله 4: ذخیره فاکتور در دیتابیس
-            // حالا که همه چیز مشخص شد (خصوصاً CustomerId)، فاکتور رو واقعاً ذخیره می‌کنیم
             await _repository.AddAsync(invoice);
+
+
+
 
             // 🔹 مرحله 5: برگرداندن پاسخ به کاربر
             // یه پاسخ ساختاریافته برمی‌گردونیم که شامل شناسه و شماره فاکتور باشه
@@ -91,7 +114,8 @@ namespace RainExtention.Application.Service
             {
                 InvoiceId = invoice.InvoiceId,           // شناسه فاکتور (Guid)
                 InvoiceNumber = invoice.InvoiceNumber,   // شماره فاکتور (مثلاً 1-1-101)
-                Message = "Invoice added successfully." // پیام موفقیت‌آمیز
+                Message = "Invoice added successfully.", 
+                InvoiceData = invoice // پیام موفقیت‌آمیز
             };
         }
         private string GenerateNextInvoiceNumber(string? lastNumber, int storeId, int workstationId)

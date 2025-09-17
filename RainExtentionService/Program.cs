@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "RainExtention API",
-        Version = "v1",
+        Version = "2.0.0.0",
         Description = "API for RainExtention Application"
     });
 
